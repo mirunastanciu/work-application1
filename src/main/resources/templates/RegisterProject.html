@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Project</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="centred">
+      <nav class="nav">
+          <a id="text-nav" href="index.html">HOME</a>  
+          <a id="text-nav" href="AdminStartPage.html">START PAGE</a> 
+          <a id="text-nav" href="contact.html">CONTACT</a> 
+          
+      </nav>    
+	</div> 
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Project Type</label>   
+    	<select>
+    		 <option value="none"></option>
+  		     <option value="WD">WebDesigne</option>
+  			 <option value="java">Java</option>
+ 			 <option value="js">JavaScript</option>
+  			 <option value="c#">C#</option>
+		</select>
+
+
+    <label for="lname">What You Expect ?</label>
+    <input type="text" id="description" name="description" placeholder="Please enter a very clear description fro what you expect from this project..">
+
+    <label for="lname">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Your e-mail">
+   
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

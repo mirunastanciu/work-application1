@@ -1,0 +1,176 @@
+body{
+	background-image: url("../images/background.jpg");
+	background-attachment: fixed;
+
+}
+
+.centred{
+    display: table;
+    margin: 0 auto;
+}
+
+.login{
+	background-image: url("../images/background.jpg");
+	background-attachment: fixed;
+    }
+
+.contact{
+	background-image: url("images/background.jpg");
+	background-attachment: fixed;
+}
+
+.img-center{
+    position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+/*.img-bottom{
+	position:fixed;
+    bottom:0px;
+    left:500px;
+    right:200px;
+    height:400px;
+    width: 1020px;
+}*/
+
+.nav{
+	text-align: center;
+	display: block;
+	background-color: rgba(0, 188, 212, 0.45);
+	margin-top: 20px;
+	
+
+}
+
+
+#text-nav{
+	color:white;
+	font-size: 20px;
+	margin: 50px;
+}
+
+#text-nav:hover{
+	
+	color:black;
+
+}
+
+/*#text-nav:focus{
+    
+    color:black;
+
+}
+
+.focus {
+    background-color:white;
+    color:black;
+
+ }*/
+
+#button-style:hover{
+	background-color:white;
+	color:black;
+
+}
+
+.login-form{
+	align-items: center;
+	display: table;
+    margin: 0 auto;
+  	margin-top: 100px;
+}
+
+#button-style{
+	color:white;
+	background-color: black;
+	border-color: black;
+	
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #2196F3;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(242, 242, 242, 0.42);
+    color:black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgba(242, 242, 242, 0.42);
+    padding: 20px;
+    display: table;
+    /*margin: 0 auto;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 400px;*/
+    margin-right: auto;
+  	margin-left: auto;
+    margin-top: 200px;
+}
+
+h3{
+    text-align: center;
+}
+
+.InLineDiv-StAdmPg{
+    display: inline-block;
+    margin: 50px;
+}
+
+#listStPg{
+    height: 600px;
+    width: 500px ;
+    opacity: 0.5;
+    align-items: center;
+}
+
+.passwordbutton{
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #2196F3;
+    margin-top: 100px;
+}
+
+#search{
+
+    width: 500px ;
+    display: grid;
+    opacity: 0.5;
+    position: relative;
+    float: left;
+    margin-bottom: 0;
+}
+}
+
+.button-search{
+    height: 38px;
+    margin-top: 7px;
+    border-radius: 4px;
+    opacity: 0.5;
+    }
+    
+
